@@ -7,6 +7,7 @@ import './index.css';
 import Axis from './Axis';
 import Barchart from './Barchart';
 import Colors from './Colors';
+import BouncingBall from './BouncingBall';
 
 // Override the default react logo things
 const App = () => (
@@ -17,6 +18,9 @@ const App = () => (
     </svg>
     <svg width="800" height="400" id="svg2">
       <Colors x={10} y={0} data={d3.range(20)} height={200} width={300} />
+    </svg>
+    <svg width="800" height="600">
+      <BouncingBall max_x={800} max_h={600} />
     </svg>
   </div>
 );

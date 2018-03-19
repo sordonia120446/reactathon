@@ -34,7 +34,6 @@ class Colors extends Component {
             height={this.height(i)}
             x={this.width(i)}
             y={200 - this.height(i)}
-            // y="0"
           />
         ))}
       </g>
